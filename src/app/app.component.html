@@ -1,0 +1,30 @@
+<!-- <mat-toolbar color='primary'>Posts</mat-toolbar> -->
+<!-- <app-post-create></app-post-create>
+<app-post-details></app-post-details> -->
+<!-- <div class="button-row">
+  <a mat-raised-button color="primary" [routerLink]="['/']"><mat-icon>add</mat-icon></a>
+</div> -->
+<mat-toolbar color="primary"> 
+    <mat-toolbar-row>
+            <span class="title-center">
+        My single page application
+    </span>
+      </mat-toolbar-row>
+    
+      <mat-toolbar-row>
+
+  <button mat-button [routerLink]="['/create']" color="Warn">Create</button>
+  <button mat-button [routerLink]="['/list']">List</button>
+</mat-toolbar-row>
+ </mat-toolbar>
+ 
+
+<!--<button mat-button color="primary" [matMenuTriggerFor]="menu">Posts Menu</button>
+<mat-menu color="primary" #menu="matMenu">
+  <button color="primary" mat-menu-item [routerLink]="['/create']">Create</button>
+  <button color="primary"mat-menu-item [routerLink]="['/']">List</button>
+</mat-menu> -->
+  
+ 
+
+<router-outlet></router-outlet>
