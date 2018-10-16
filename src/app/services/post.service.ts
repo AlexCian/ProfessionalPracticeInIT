@@ -11,7 +11,7 @@ export class PostService {
   constructor(private http: HttpClient) { }
   
     getPostsData(): Observable<any> {
-      return this.http.get("https://jsonblob.com/api/72c08754-bd0b-11e8-9ff5-3dcfbb284439");
+      return this.http.get("http://localhost:8081/api/posts");
     }
 
   private posts: Post[] = [];
@@ -21,16 +21,9 @@ export class PostService {
     return [...this.posts];
   }
 
-  // getPostUpdateListener() {
-  //   return this.postsUpdated.asObservable();
-  // }
-
-  addPost(title: string, content: string) {
+  addPost(title: string, content: string): Observable<any> {
     const post: Post = {title: title, content: content};
-    this.posts.push(post);
-    console.log(post);
-    console.log(this.posts);
-    //this.postsUpdated.next([...this.posts]);
+    return this.http.post("http://localhost:8081/api/posts",post);
   }
 
 }
