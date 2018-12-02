@@ -1,1 +1,27 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+#th {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+  }
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width:24%;
+  padding: 1px;
+}
+.column1 {
+  float: left;
+  width:24%;
+  padding: 1px;
+}
+
+h1 {
+    text-align: center;
+}
+
