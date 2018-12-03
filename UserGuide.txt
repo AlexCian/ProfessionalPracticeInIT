@@ -1,0 +1,9 @@
+4 Buttons to click on mat-toolbar. 
+
+1:Create, creates your Doughnut. Type data in and click "Save".
+
+2:List, listing your Doughnuts. Click "Doughnuts!" to min/max the text boxes, showing your content sent to the server.
+
+3:Info, gives details about Doughnuts. Click top button to show text and bottom button that appears to remove text.
+
+4:Shop, shopping cart to purchase Doughnuts. (Not working, does not save items or add quantities.
