@@ -1,8 +1,14 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
+h2{
+    font-family: "Helvetica";
 
+}
 
+p{
+    font-family: "Helvetica";
 
+}
     
    
 
