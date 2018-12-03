@@ -16,7 +16,7 @@ import { MatInputModule,
   MatExpansionModule} from '@angular/material';
 import { PostCreateComponent } from './post-create/post-create.component';
 import { PostInfoComponent } from './post-info/post-info.component';
-
+import { PostShopComponent } from './post-shop/post-shop.component';
 const appRoutes: Routes = [
   {
     path: 'list',
@@ -29,6 +29,10 @@ const appRoutes: Routes = [
   {
     path: 'info',
     component: PostInfoComponent
+  },
+  {
+    path: 'shop',
+    component: PostShopComponent
   }
 ];
 
@@ -38,7 +42,8 @@ const appRoutes: Routes = [
     AppComponent,
     PostDetailsComponent,
     PostCreateComponent,
-    PostInfoComponent
+    PostInfoComponent,
+    PostShopComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
