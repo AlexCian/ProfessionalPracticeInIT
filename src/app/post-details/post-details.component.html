@@ -7,10 +7,12 @@
     </mat-expansion-panel-header>
     <p>Topping 1 : {{ post.title }}</p>
     <p>Topping 2 : {{ post.content }}</p>
-    <mat-action-row>
+    <mat-action-row> 
       <button mat-button color="primary">EDIT</button>
       <button mat-button (click)="onDelete(post._id)" color="warn">DELETE</button>
     </mat-action-row>
   </mat-expansion-panel>
 </mat-accordion>
-<h2><p *ngIf="posts.length <= 0">No doughnut creations are here...</p></h2> 
+<h2><p *ngIf="posts.length <= 0">No doughnut creations are here...Heres a Doughnut for you!
+  <img src="http://www.slate.com/content/dam/slate/blogs/xx_factor/2014/doughnut.jpg.CROP.cq5dam_web_1280_1280_jpeg.jpg">
+</p></h2> 
