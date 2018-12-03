@@ -72,4 +72,29 @@ var server = app.listen(8081, function () {
    var port = server.address().port
    
    console.log("Host at http://%s:%s", host, port)
+
+function CartForm($scope) {
+  
+
+    $scope.addItem = function() {
+        $scope.invoice.items.push({
+            qty: 1,
+            description: '',
+            cost: 0
+        });
+    },
+
+    $scope.removeItem = function(index) {
+        $scope.invoice.items.splice(index, 1);
+    },
+
+    $scope.total = function() {
+        var total = 0;
+        angular.forEach($scope.invoice.items, function(item) {
+            total += item.qty * item.cost;
+        })
+
+        return total;
+    }
+}
 })
