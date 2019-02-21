@@ -6,3 +6,6 @@ and JavaScript.
 There will be a sign up and login function using text files that save the data into them and confirm login data.
 Each user will have specified programs added to their watchlist so they can be differentiated and different usernames.
 
+The main idea of this project is to have Server/Client for a MySql database on a virtual machine that will be pulled and
+used for the database of TV programs.
+
