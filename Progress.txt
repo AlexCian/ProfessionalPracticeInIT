@@ -1,0 +1,5 @@
+21st February : New Start Date as idea and technology of App have been changed. Fire Base and Angular will be used instead
+of HTML and JavaScript.
+
+22nd February 13:35pm : Fire Base has been set up with the new App. App needs major cleaning due to it being based off a previous
+project which has no correlation to the idea of the current App. Can't be uploaded to Github until it is cleaned.
