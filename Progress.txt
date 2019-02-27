@@ -3,3 +3,5 @@ of HTML and JavaScript.
 
 22nd February 13:35pm : Fire Base has been set up with the new App. App needs major cleaning due to it being based off a previous
 project which has no correlation to the idea of the current App. Can't be uploaded to Github until it is cleaned.
+
+27th February 16:15pm : Attempting to iron out basic firebase changes, in process of pushing to git to test changing. 
