@@ -5,3 +5,10 @@ of HTML and JavaScript.
 project which has no correlation to the idea of the current App. Can't be uploaded to Github until it is cleaned.
 
 27th February 16:15pm : Attempting to iron out basic firebase changes, in process of pushing to git to test changing. 
+
+27th February 16:27pm : Github working correctly, all work pushed to here. App still needs cleaning, hasn't been changed much as Firebase had some difficulties. 
+
+-----------------------------
+WORK FOR NEXT WEEK (4th March)
+-----------------------------
+Get suitable user interface, try and read/write from firebase database if possible, if not just work on website itself and have some usable functions inside.
