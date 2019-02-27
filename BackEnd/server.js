@@ -4,7 +4,19 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var mongoDB = 'mongodb://moecherry1:moecherry1@ds255970.mlab.com:55970/lab7';
+//var firebase = require("firebase/app");
 
+/*require("firebase/auth");
+require("firebase/database");
+require("firebase/firestore");
+require("firebase/messaging");
+require("firebase/functions");
+
+var config = {
+    // ...
+};
+firebase.initializeApp(config);
+*/
 mongoose.connect(mongoDB);
 
 var Schema = mongoose.Schema;
