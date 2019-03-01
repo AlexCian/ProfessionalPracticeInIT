@@ -11,6 +11,8 @@ project which has no correlation to the idea of the current App. Can't be upload
 1st March 11:51pm (Alex): Updated the Github repository for the main html page on Angular to have suitable CSS/the old look that other website had before idea was changed.
 
 1st March 11:57pm (Alex): Wiki has been updated, index page link for Fire Base has been created and headers were added. Still in learning process of the Wiki so again it will be updated once more content has been added. 
+
+1st March 23:38pm (Alex): Noticed that when uploading to git (git push) the images and CSS file disappear. Updated a Wiki page to show how to counter this and show precautions. Please read the Wiki page named "Errors".
 -----------------------------
 WORK FOR NEXT WEEK (4th March)
 -----------------------------
