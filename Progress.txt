@@ -17,3 +17,5 @@ project which has no correlation to the idea of the current App. Can't be upload
 WORK FOR NEXT WEEK (4th March)
 -----------------------------
 Get suitable user interface, try and read/write from firebase database if possible, if not just work on website itself and have some usable functions inside.
+
+Update 5th March 11:47pm (Alex): Work on link shown on "Useful Links" Wiki page to get a login application using FireBase for the two tier architecture.
