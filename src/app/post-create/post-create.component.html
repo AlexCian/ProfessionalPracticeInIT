@@ -1,35 +1,72 @@
+<link href="css/website.css" rel="stylesheet" type="text/css" />
 
-<mat-card>
-  <form (submit)="onAddPost(postForm)" #postForm="ngForm">
-      <p>Doughnut Topping 1</p>
-    <mat-form-field>
-      <input
-        matInput
-        type="text"
-        name="title"
-        ngModel
-        required
-        minlength="3"
-        #title="ngModel">
-        
-      <mat-error *ngIf="title.invalid">You forgot your doughnut toppings!</mat-error>
-    </mat-form-field>
-    <p>Doughnut Topping 2 or Filling!</p>
-    <mat-form-field>
-      <input
-        matInput
-        type="text"
-        name="content"
-        ngModel
-        required
-        #content="ngModel">
-      <mat-error *ngIf="content.invalid">You forgot your doughnut toppings!</mat-error>
-    </mat-form-field>
-    <br>
-    <br>
-    <button
-      mat-raised-button
-      color="accent"
-      type="submit">Save</button>
-  </form>
-</mat-card>
+<div id="website_wrapper">
+ 
+    <!-- END of header-->
+
+<div id="website_footer">
+      <div class="col one_third">
+        <h4>Links</h4>
+        <ul class="footer_list">
+          <li><a href="support.html">Support</a></li><!-- Support Page to be inserted here -->
+          <li><a href="support.html">FAQ</a></li><!-- Support Page to be inserted here -->
+          <li><a href="cart.html">Cart</a></li><!-- Cart Page to be inserted here-->
+        </ul>
+      </div>
+      <div class="col one_third">
+        <h4>Social Media</h4>
+        <ul class="twitter_post">
+          <li>Keep up to date with our programs and discounts on social media!</li>
+          <div class="footer_social_button">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook" title="facebook" /></a>
+            <a href="https://www.flickr.com"><img src="images/flickr.png" alt="Flickr" title="flickr" /></a>
+            <a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter" title="twitter" /></a>
+            <a href="https://www.youtube.com"><img src="images/youtube.png" alt="Youtube" title="youtube" /></a>
+            <a href="https://www.rss.com"><img src="images/feed.png" alt="Feed" title="rss" /></a>
+          </div>
+          <li></li>
+        </ul>
+      </div>
+    <div class="col one_third no_margin_right">
+		<h4>About Us</h4>
+		<p>Please consider us to watch your TV programs on!</p>
+		Copyright © 2019 <a href="">Our Website Name Inserted Here</a>
+	</div>
+</div>
+      
+<!--<mat-toolbar color="warn"> 
+    <mat-toolbar-row>
+            <span class="title-center">
+              <br>
+       <h1> Welcome to the Doughnut shop!</h1>
+       <br>
+    </span>
+      </mat-toolbar-row>
+    
+      <mat-toolbar-row>-->
+<!-- mat-button after button-->
+
+  <!--<button mat-button [routerLink]="['/create']" color="Warn">Create</button>
+  <button mat-button [routerLink]="['/list']">List</button>
+  <button mat-button [routerLink]="['/info']">Info</button>
+  <button mat-button [routerLink]="['/shop']">Shop</button>
+</mat-toolbar-row>
+ </mat-toolbar>-->
+
+ 
+
+<!--><script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-functions.js"></script>
+
+<script>
+  var config = {
+    // ...
+  };
+  firebase.initializeApp(config);
+</script>
+-->
+<router-outlet></router-outlet>
