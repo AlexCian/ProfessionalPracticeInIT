@@ -17,7 +17,24 @@ import { MatInputModule,
 import { PostCreateComponent } from './post-create/post-create.component';
 import { PostInfoComponent } from './post-info/post-info.component';
 import { PostShopComponent } from './post-shop/post-shop.component';
+import { Home2Component } from './home2/home2.component';
+import { Page1Component } from './page1/page1.component';
 const appRoutes: Routes = [
+  {
+    path: 'page1',
+    component: Page1Component
+
+  },
+  {
+    path: 'home2',
+    component: Home2Component
+
+  },
+  {
+    path: 'home',
+    component: AppComponent
+
+  },
   {
     path: 'list',
     component: PostDetailsComponent
@@ -43,7 +60,9 @@ const appRoutes: Routes = [
     PostDetailsComponent,
     PostCreateComponent,
     PostInfoComponent,
-    PostShopComponent
+    PostShopComponent,
+    Home2Component,
+    Page1Component
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
