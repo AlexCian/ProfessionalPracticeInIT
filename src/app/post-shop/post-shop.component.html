@@ -1,30 +1,72 @@
-<!-- Shopping Cart Attempt(Not Working)-->
+<link href="css/website.css" rel="stylesheet" type="text/css" />
 
-<h2>Buy your Doughnuts here!</h2>
-<div ng:controller="CartForm">
-    <table class="table">
-        <tr>
-            
-            <th>Doughnut</th>
-            <th>Quantity</th>
-            <th>Cost</th>
-            <th>Total</th>
-            <th></th>
-        </tr>
-        <tr ng:repeat="item in invoice.items">
-            <td><input type="text" ng:model="item.description" class="input-small"></td>    
-            <td><input type="number" ng:model="item.qty" ng:required class="input-mini"></td>
-            <td><input type="number" ng:model="item.cost" ng:required class="input-mini"></td>
-            <td>{{item.qty * item.cost | currency}}</td>
-            <td>
-                [<a href ng:click="removeItem($index)">X</a>]
-            </td>
-        </tr>
-        <tr>
-            <td><a href ng:click="addItem()" class="btn btn-small">Add Item</a></td>
-            <td></td>
-            <td>Total:</td>
-            <td>{{total() | currency}}</td>
-        </tr>
-    </table>
+<div id="website_wrapper">
+ 
+    <!-- END of header-->
+
+<div id="website_footer">
+      <div class="col one_third">
+        <h4>Links</h4>
+        <ul class="footer_list">
+          <li><a href="support.html">Support</a></li><!-- Support Page to be inserted here -->
+          <li><a href="support.html">FAQ</a></li><!-- Support Page to be inserted here -->
+          <li><a href="cart.html">Cart</a></li><!-- Cart Page to be inserted here-->
+        </ul>
+      </div>
+      <div class="col one_third">
+        <h4>Social Media</h4>
+        <ul class="twitter_post">
+          <li>Keep up to date with our programs and discounts on social media!</li>
+          <div class="footer_social_button">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook" title="facebook" /></a>
+            <a href="https://www.flickr.com"><img src="images/flickr.png" alt="Flickr" title="flickr" /></a>
+            <a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter" title="twitter" /></a>
+            <a href="https://www.youtube.com"><img src="images/youtube.png" alt="Youtube" title="youtube" /></a>
+            <a href="https://www.rss.com"><img src="images/feed.png" alt="Feed" title="rss" /></a>
+          </div>
+          <li></li>
+        </ul>
+      </div>
+    <div class="col one_third no_margin_right">
+		<h4>About Us</h4>
+		<p>Please consider us to watch your TV programs on!</p>
+		Copyright © 2019 <a href="">Our Website Name Inserted Here</a>
+	</div>
 </div>
+      
+<!--<mat-toolbar color="warn"> 
+    <mat-toolbar-row>
+            <span class="title-center">
+              <br>
+       <h1> Welcome to the Doughnut shop!</h1>
+       <br>
+    </span>
+      </mat-toolbar-row>
+    
+      <mat-toolbar-row>-->
+<!-- mat-button after button-->
+
+  <!--<button mat-button [routerLink]="['/create']" color="Warn">Create</button>
+  <button mat-button [routerLink]="['/list']">List</button>
+  <button mat-button [routerLink]="['/info']">Info</button>
+  <button mat-button [routerLink]="['/shop']">Shop</button>
+</mat-toolbar-row>
+ </mat-toolbar>-->
+
+ 
+
+<!--><script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-functions.js"></script>
+
+<script>
+  var config = {
+    // ...
+  };
+  firebase.initializeApp(config);
+</script>
+-->
+<router-outlet></router-outlet>
