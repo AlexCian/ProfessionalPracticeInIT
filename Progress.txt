@@ -27,3 +27,5 @@ Update 5th March 11:47pm (Alex): Work on link shown on "Useful Links" Wiki page 
 12th - 25th March : Tried to get Firebase Authentication working, some modules not complying with VS code as they are of an older version, may have to scrap Firebase idea and work with MLab instead (is already installed in project)
 -------------------------
 25th March 22:54pm (Alex) : Working on support page UI and layout.
+
+7th April 13:24pm (Alex) : Fallen behind on project work due to other college work. Mainly research is being done as of now but on 12th of April work will pick up again and hopefully full UI will be finished in the week until the 19th. Finishing touches done on 19th-26th for simple extras to add to website.
