@@ -6,6 +6,6 @@ and Firebase.
 There will be a sign up and login function.
 Each user will have specified programs added to their watchlist so they can be differentiated and different usernames.
 
-The main idea of this is to use Firebase to create the database in for the TV programs and to pull them onto the Angular
-app.
+The main idea of this is to use Firebase for login authentication and to acquire an API from an outside source and pull the 
+data from that page to the main page.
 
