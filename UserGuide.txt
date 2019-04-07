@@ -1,9 +1,10 @@
-4 Buttons to click on mat-toolbar. 
+User Guide if people are having trouble with navigation.
 
-1:Create, creates your Doughnut. Type data in and click "Save".
+6 buttons up top : 1, 2, 3, 4, 5, 6
 
-2:List, listing your Doughnuts. Click "Doughnuts!" to min/max the text boxes, showing your content sent to the server.
-
-3:Info, gives details about Doughnuts. Click top button to show text and bottom button that appears to remove text.
-
-4:Shop, shopping cart to purchase Doughnuts. (Not working, does not save items or add quantities.
+Button 1 : This is the main interface of the page. Shows all the TV program listings.
+Button 2 : 
+Button 3 : 
+Button 4 : 
+Button 5 : This is the cart page. If you want to buy a license for a TV program, its contents go here.
+Button 6 : This is the support page. If customers have inquiries, go here.
