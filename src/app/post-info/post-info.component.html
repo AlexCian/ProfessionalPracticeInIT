@@ -2,9 +2,104 @@
 
 <div id="website_wrapper">
  
-    <!-- END of header-->
+    <div id="website_main_top"></div>
+    <div id="website_main">
+      
+      <h2>Contact Information</h2>
+      <div class="half float_l">
+        <p>
+          <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"></a>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"></a>Please input your details in the boxes below for <b>technical assistance</b>.</p>
 
+        <div id="contact_form">
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="InputName">Full Name</label>
+              <input type="text" class="form-control" id="InputName" placeholder="Name" required>
+
+              <div class="form-group">
+                <label for="InputEmail">Email</label>
+                <input type="email" class="form-control" id="InputEmail" placeholder="Vaild email address" required>
+              </div>
+
+              <label for="InputSubject">Subject:</label>
+              <input type="text" class="form-control" id="InputSubject" placeholder="Technical Assistance Required" required>
+
+              <div class="cleaner h10"></div>
+
+              <label for="text">Message:</label> <textarea placeholder="Input details of the message:" id="text" name="text" rows="0" cols="0" class="required"></textarea>
+              <div class="cleaner h10"></div>
+
+              <input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" onclick=sendRequest() />
+
+              <input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+
+      <div class="half float_r">
+        <h2>Frequently Asked Questions </h2>
+        <div class="cleaner divider"></div>
+        <div class="faq">
+          <a href="#Q1">+ How do I purchase a movie/boxset?</a><br>
+
+          <div style="display: none;" id="hiddenText"><br>Click the "Add to Cart" button below the game you want to purchase, then head to the cart page and your transactions will be stored. Select the correct payment type afterwards.<br>
+            <a href="#Q1" ><br> ^ </a>
+          </div><br>
+        </div>
+        <div class="cleaner divider"></div>
+
+
+        <div class="faq">
+          <a href="#Q2">+ Are there discounts on the websites products? </a>
+
+          <div style="display: none;" id="hiddenTex"> <br>These discounts are updated monthly from the 1st of every month.<br>
+            <a href="#Q2"><br> ^ </a>
+          </div>
+          <br><br>
+        </div>
+        <div class="cleaner divider"></div>
+
+        <div class="faq">
+          <a href="#Q3" >+ How long do TV programs stay on the listings? </a>
+          <div style="display: none;" id="hiddenTe"> <br>Yes these codes expire in 30 days unless stated otherwise.<br>
+
+            <a href="#Q3" ><br> ^ </a>
+          </div>
+          <br><br>
+        </div>
+        <div class="cleaner divider"></div>
+
+
+        <div class="faq">
+          <a href="#Q4">+ What payment methods do you accept? </a>
+          <div style="display: none;" id="hiddenT"> <br>We accept all payments types.<br>
+            <a href="#Q4" ><br> ^ </a>
+          </div>
+          <br><br>
+        </div>
+        <div class="cleaner divider"></div>
+
+        <div class="faq">
+          <a href="#Q5">+ Can I get a refund? </a>
+          <div style="display: none;" id="hidden"> <br>Yes you may return your game if it falls into the refund category. More info can be found on the games webpage. <br>
+
+            <a href="#Q5" ><br> ^ </a>
+          </div>
+        </div>
+        <div class="cleaner divider"></div>
+
+
+        
+      </div>
+
+      <div class="cleaner"></div>
+    </div>
 <div id="website_footer">
+  <div class = "half float_l">
       <div class="col one_third">
         <h4>Links</h4>
         <ul class="footer_list">
@@ -27,6 +122,7 @@
           <li></li>
         </ul>
       </div>
+    </div>
     <div class="col one_third no_margin_right">
 		<h4>About Us</h4>
 		<p>Please consider us to watch your TV programs on!</p>
@@ -34,39 +130,6 @@
 	</div>
 </div>
       
-<!--<mat-toolbar color="warn"> 
-    <mat-toolbar-row>
-            <span class="title-center">
-              <br>
-       <h1> Welcome to the Doughnut shop!</h1>
-       <br>
-    </span>
-      </mat-toolbar-row>
-    
-      <mat-toolbar-row>-->
-<!-- mat-button after button-->
 
-  <!--<button mat-button [routerLink]="['/create']" color="Warn">Create</button>
-  <button mat-button [routerLink]="['/list']">List</button>
-  <button mat-button [routerLink]="['/info']">Info</button>
-  <button mat-button [routerLink]="['/shop']">Shop</button>
-</mat-toolbar-row>
- </mat-toolbar>-->
 
- 
-
-<!--><script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-messaging.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-functions.js"></script>
-
-<script>
-  var config = {
-    // ...
-  };
-  firebase.initializeApp(config);
-</script>
--->
 <router-outlet></router-outlet>
