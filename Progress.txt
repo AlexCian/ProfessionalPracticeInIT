@@ -33,3 +33,5 @@ Update 5th March 11:47pm (Alex): Work on link shown on "Useful Links" Wiki page 
 8th April 17:16pm (Alex) : Created UI for the support/info page in the website. Some minor adjustments are needed to fix layout.
 
 13th April 19:36pm (Alex) : Updated CSS, folder not in project as does not import. Updating UI of support page and main page, removed one link up top as not needed for content.
+
+16th April 15:57pm (Alex) : Updating CSS for pages, useful link for Wiki found to style and organise it correctly. https://guides.github.com/features/wikis/
