@@ -39,3 +39,5 @@ Update 5th March 11:47pm : Work on link shown on "Useful Links" Wiki page to get
 17th April 13:28pm : Updated Wiki with several new pages.
 
 18th April 11:02pm : Support page layout almost complete, mat expansion panels added for dropdown menus. 
+
+18th April 17:48pm : Added embedded videos into the featured page (main page) and put them into divs (left and right).
