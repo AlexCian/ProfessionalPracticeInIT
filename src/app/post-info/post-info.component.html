@@ -2,28 +2,33 @@
 
 <div id="website_wrapper">
  
+    <!-- End of header-->
+    
+    
+    
     <div id="website_main_top"></div>
     <div id="website_main">
       
+      <!-- Form for Support page-->
+      <br><br><br><br>
       <h2>Contact Information</h2>
       <div class="half float_l">
         <p>
-          <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"></a>
-          <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"></a>Please input your details in the boxes below for <b>technical assistance</b>.</p>
+        Please input your details in the boxes below for <b>technical assistance</b>.</p>
 
         <div id="contact_form">
           <form class="form-inline">
             <div class="form-group">
               <label for="InputName">Full Name</label>
-              <input type="text" class="form-control" id="InputName" placeholder="Name" required>
+              <input type="text" class="form-control" id="InputName" placeholder="Name" required><br>
 
               <div class="form-group">
                 <label for="InputEmail">Email</label>
-                <input type="email" class="form-control" id="InputEmail" placeholder="Vaild email address" required>
+                <input type="email" class="form-control" id="InputEmail" placeholder="Vaild email address" required><br>
               </div>
 
               <label for="InputSubject">Subject:</label>
-              <input type="text" class="form-control" id="InputSubject" placeholder="Technical Assistance Required" required>
+              <input type="text" class="form-control" id="InputSubject" placeholder="Technical Assistance Required" required><br>
 
               <div class="cleaner h10"></div>
 
@@ -39,67 +44,84 @@
         </div>
       </div>
 
+      <!-- FAQ for Support page -->
 
       <div class="half float_r">
-        <h2>Frequently Asked Questions </h2>
+        <h2>Frequently Asked Questions </h2>  
         <div class="cleaner divider"></div>
         <div class="faq">
-          <a href="#Q1">+ How do I purchase a movie/boxset?</a><br>
-
-          <div style="display: none;" id="hiddenText"><br>Click the "Add to Cart" button below the game you want to purchase, then head to the cart page and your transactions will be stored. Select the correct payment type afterwards.<br>
-            <a href="#Q1" ><br> ^ </a>
-          </div><br>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              How do I purchase a movie/boxset?
+            </mat-expansion-panel-header>
+          
+            <ng-template matExpansionPanelContent>
+              Click the "Add to Cart" button below the item you want to purchase, 
+            then head to the cart page and your transactions will be stored. Select the correct payment type afterwards.
+            </ng-template>
+          </mat-expansion-panel>
         </div>
-        <div class="cleaner divider"></div>
+       <br>
 
 
         <div class="faq">
-          <a href="#Q2">+ Are there discounts on the websites products? </a>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              Are there discounts on the websites products?
+            </mat-expansion-panel-header>
+          
+            <ng-template matExpansionPanelContent>
+              There are usually seasonal discounts applied to items.
+            </ng-template>
+          </mat-expansion-panel>
+        </div>
+       <br>
 
-          <div style="display: none;" id="hiddenTex"> <br>These discounts are updated monthly from the 1st of every month.<br>
-            <a href="#Q2"><br> ^ </a>
+        <div class="faq">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              How long do TV programs stay on the listings? 
+            </mat-expansion-panel-header>
+          
+            <ng-template matExpansionPanelContent>
+              They stay for at least 2 months. Others may last much longer.
+            </ng-template>
+          </mat-expansion-panel>
+        </div>
+        <br>
+
+
+        <div class="faq">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              What payment methods do you accept?
+            </mat-expansion-panel-header>
+          
+            <ng-template matExpansionPanelContent>
+              We accept all payments types.
+            </ng-template>
+          </mat-expansion-panel>
+        </div>
+        <br>
+
+        <div class="faq">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              Can I get a refund?
+            </mat-expansion-panel-header>
+          
+            <ng-template matExpansionPanelContent>
+              Yes you may return your selected item if it falls into the refund category.
+            </ng-template>
+          </mat-expansion-panel>
+          <br>
           </div>
-          <br><br>
-        </div>
-        <div class="cleaner divider"></div>
-
-        <div class="faq">
-          <a href="#Q3" >+ How long do TV programs stay on the listings? </a>
-          <div style="display: none;" id="hiddenTe"> <br>Yes these codes expire in 30 days unless stated otherwise.<br>
-
-            <a href="#Q3" ><br> ^ </a>
-          </div>
-          <br><br>
-        </div>
-        <div class="cleaner divider"></div>
-
-
-        <div class="faq">
-          <a href="#Q4">+ What payment methods do you accept? </a>
-          <div style="display: none;" id="hiddenT"> <br>We accept all payments types.<br>
-            <a href="#Q4" ><br> ^ </a>
-          </div>
-          <br><br>
-        </div>
-        <div class="cleaner divider"></div>
-
-        <div class="faq">
-          <a href="#Q5">+ Can I get a refund? </a>
-          <div style="display: none;" id="hidden"> <br>Yes you may return your game if it falls into the refund category. More info can be found on the games webpage. <br>
-
-            <a href="#Q5" ><br> ^ </a>
-          </div>
-        </div>
-        <div class="cleaner divider"></div>
-
-
-        
+        </div>     
       </div>
+      
 
-      <div class="cleaner"></div>
-    </div>
 <div id="website_footer">
-  <div class = "half float_l">
+     
       <div class="col one_third">
         <h4>Links</h4>
         <ul class="footer_list">
@@ -122,14 +144,12 @@
           <li></li>
         </ul>
       </div>
-    </div>
     <div class="col one_third no_margin_right">
 		<h4>About Us</h4>
 		<p>Please consider us to watch your TV programs on!</p>
 		Copyright © 2019 <a href="">Our Website Name Inserted Here</a>
 	</div>
 </div>
+
       
-
-
 <router-outlet></router-outlet>
