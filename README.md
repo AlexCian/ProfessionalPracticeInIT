@@ -14,5 +14,7 @@ The header up top has all of the desired links for you to go to on the website i
 
 The project runs off the server and is fully loaded on startup (no loading time between pages).
 
-This project is an Angular project that is a movie and TV program watchlist. It is a full website with a home page, featured programs, items to purchase such as boxsets, a fully functioning cart page and a support page to view the FAQ and send off forms for technical assistance. It is mainly for broadcasting and previews of popular TV shows (an informative website) with some functionality. 
+This project is an Angular and Express project that is a movie and TV program watchlist. It is a full website with a home page, featured programs, items to purchase such as boxsets, a fully functioning cart page and a support page to view the FAQ and send off forms for technical assistance. It is mainly for broadcasting and previews of popular TV shows (an informative website) with some functionality. 
+
+The main goal of the project is to broadcast all the necessary information people want to see about TV programs. Having too much content is unnecessary so we have developed a website with just the right amount of content and a very suitable UI for customers.
 
