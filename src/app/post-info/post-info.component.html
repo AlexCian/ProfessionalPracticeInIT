@@ -3,10 +3,8 @@
 <div id="website_wrapper">
  
     <!-- End of header-->
-    
-    
-    
-    <div id="website_main_top"></div>
+
+ 
     <div id="website_main">
       
       <!-- Form for Support page-->
@@ -32,29 +30,31 @@
 
               <div class="cleaner h10"></div>
 
-              <label for="text">Message:</label> <textarea placeholder="Input details of the message:" id="text" name="text" rows="0" cols="0" class="required"></textarea>
+              <label for="text">Message:</label> <textarea placeholder="Input details of the message:" id="text" 
+              name="text" rows="0" cols="0" class="required"></textarea>
               <div class="cleaner h10"></div>
 
               <input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" onclick=sendRequest() />
 
               <input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
+              <br>
             </div>
           </form>
 
         </div>
       </div>
+      
 
       <!-- FAQ for Support page -->
 
       <div class="half float_r">
-        <h2>Frequently Asked Questions </h2>  
+        <h2 style="margin-top:-65px; margin-bottom:120px">Frequently Asked Questions </h2>  
         <div class="cleaner divider"></div>
         <div class="faq">
           <mat-expansion-panel>
             <mat-expansion-panel-header>
               How do I purchase a movie/boxset?
-            </mat-expansion-panel-header>
-          
+            </mat-expansion-panel-header>        
             <ng-template matExpansionPanelContent>
               Click the "Add to Cart" button below the item you want to purchase, 
             then head to the cart page and your transactions will be stored. Select the correct payment type afterwards.
@@ -62,48 +62,39 @@
           </mat-expansion-panel>
         </div>
        <br>
-
-
         <div class="faq">
           <mat-expansion-panel>
             <mat-expansion-panel-header>
               Are there discounts on the websites products?
-            </mat-expansion-panel-header>
-          
+            </mat-expansion-panel-header>         
             <ng-template matExpansionPanelContent>
               There are usually seasonal discounts applied to items.
             </ng-template>
           </mat-expansion-panel>
         </div>
        <br>
-
         <div class="faq">
           <mat-expansion-panel>
             <mat-expansion-panel-header>
               How long do TV programs stay on the listings? 
-            </mat-expansion-panel-header>
-          
+            </mat-expansion-panel-header>       
             <ng-template matExpansionPanelContent>
               They stay for at least 2 months. Others may last much longer.
             </ng-template>
           </mat-expansion-panel>
         </div>
         <br>
-
-
         <div class="faq">
           <mat-expansion-panel>
             <mat-expansion-panel-header>
               What payment methods do you accept?
-            </mat-expansion-panel-header>
-          
+            </mat-expansion-panel-header>      
             <ng-template matExpansionPanelContent>
               We accept all payments types.
             </ng-template>
           </mat-expansion-panel>
         </div>
         <br>
-
         <div class="faq">
           <mat-expansion-panel>
             <mat-expansion-panel-header>
@@ -117,21 +108,25 @@
           <br>
           </div>
         </div>     
-      </div>
-      
-
-<div id="website_footer">
-     
+      </div>    
+    </div>
+    
+    <div id="website_footer">
+        <br><br><br>
       <div class="col one_third">
-        <h4>Links</h4>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h4>&nbsp;Links</h4>
         <ul class="footer_list">
-          <li><a href="support.html">Support</a></li><!-- Support Page to be inserted here -->
-          <li><a href="support.html">FAQ</a></li><!-- Support Page to be inserted here -->
-          <li><a href="cart.html">Cart</a></li><!-- Cart Page to be inserted here-->
+            <br>
+          <li><a href="info" style="color:lightblue">&nbsp;&nbsp;Support</a></li><!-- Support Page to be inserted here -->
+          <li><a href="info" style="color:lightblue">&nbsp;&nbsp;FAQ</a></li><!-- Support Page to be inserted here -->
+          <li><a href="shop" style="color:lightblue">&nbsp;&nbsp;Cart</a></li><!-- Cart Page to be inserted here-->
         </ul>
       </div>
       <div class="col one_third">
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <h4>Social Media</h4>
+        
         <ul class="twitter_post">
           <li>Keep up to date with our programs and discounts on social media!</li>
           <div class="footer_social_button">
@@ -145,11 +140,14 @@
         </ul>
       </div>
     <div class="col one_third no_margin_right">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<h4>About Us</h4>
 		<p>Please consider us to watch your TV programs on!</p>
-		Copyright © 2019 <a href="">Our Website Name Inserted Here</a>
+		Copyright © 2019 <a href="home2">Fletnix</a>
 	</div>
 </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="bg3"></div>
 
       
 <router-outlet></router-outlet>
