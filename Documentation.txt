@@ -44,3 +44,6 @@ Update 5th March 11:47pm : Work on link shown on "Useful Links" Wiki page to get
 
 19th April 14:16pm : Suitable UI for home page has been complete. More programs to be added and add to favourites/add to cart 
 buttons should be added next to title.
+
+21st April 16:50pm : Major UI and CSS file changes. Much better user interface and working on background image for website on ]
+app.component.html so it fits all pages. Company Logo being designed for header of app aswell. 
