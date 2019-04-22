@@ -18,3 +18,18 @@ This project is an Angular and Express project that is a movie and TV program wa
 
 The main goal of the project is to broadcast all the necessary information people want to see about TV programs. Having too much content is unnecessary so we have developed a website with just the right amount of content and a very suitable UI for customers.
 
+## Home Page
+
+An informative page giving the viewers an idea of who created their website and the ideas behind creating it.
+
+## Featured
+
+A page featuring some of the most popular released series and movies so that viewers can watch trailers for them and stream them. 
+
+## Movies
+
+## Shop
+
+## Support
+
+A technical assistance page allowing people on the website to send tickets to the support team if they have any issues with something on the website and a FAQ (Frequently Asked Questions) so that they can get a more rapid response from some of the most common queries.
