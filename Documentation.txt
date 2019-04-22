@@ -49,3 +49,6 @@ buttons should be added next to title.
 app.component.html so it fits all pages. Company Logo being designed for header of app aswell. 
 
 22nd April 14:38pm (Alex) : Movies main page fully updated, CSS file updated with new div tags to go with page. 
+
+22nd April 20:59pm (Alex) : Updated Home page interface, informative page detailing what can be found on our website and giving the 
+viewers a bit of background into the creators of the website.
