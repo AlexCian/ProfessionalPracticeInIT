@@ -52,3 +52,20 @@ app.component.html so it fits all pages. Company Logo being designed for header 
 
 22nd April 20:59pm (Alex) : Updated Home page interface, informative page detailing what can be found on our website and giving the 
 viewers a bit of background into the creators of the website.
+
+23rd April 00:02pm (Alex) : Home page UI finished, styling applied. 
+
+-----------------------------
+---------FINAL WORK----------
+-----------------------------
+
+Text needs to be changed to home page and page will be complete. Possibly 
+some extra styling can be applied. Shop page needs to be created with shopping cart and Mongoose for button send on support page.
+Login Signup to be created if possible. 
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------
+FINISH BY 26TH APRIL (4 DAYS)
+-----------------------------
+
+23rd April : 
