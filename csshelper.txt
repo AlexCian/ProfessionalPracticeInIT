@@ -26,15 +26,27 @@ p {
 	padding: 0;
 }
 
+/* header sizes */
 h1 {color: #249; font-weight: normal;} 
 h2, h3, h4, h5, h6 { color: #256; font-weight: normal; }
-h1 { font-size: 42px; margin: 10px 10px 80px 10px; padding: 5px 0 }
+h1 { font-size: 42px; margin: 0px 10px 80px 10px; padding: 5px 0 }
 h2 { font-size: 30px; margin: 20px 0 25px ; padding: 5px 0 }
 h3 { font-size: 24px; margin: 0 0 20px; padding: 0; }
 h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
 h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
 h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 
+/* edge picture/styling 
+.main_edges{
+	background: url(../images/bgImage.jpg);
+	width: 40px;
+	height: 1390px;
+	padding-top: 200px;
+	padding-left: 507px;
+	padding-right: 623px;
+}
+*/
+/* Body interface picture lining */
 .main_body {
 	
 	background: url(../images/mainImage.png);
@@ -46,7 +58,12 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	
 	
 }
-
+#main_site{
+	background:url(../images/bgImage.jpg);
+	width: 1200px;
+	height: 1200px;
+	
+}
 #website_footer {
 	width: 860px;
 	padding: 62px 52px;
@@ -58,12 +75,14 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	
 }
 
+/* h4 footer style */
 #website_footer h4 {
 	color: #fff;
 	font-size: 14px;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
+
 #website_wrapper {
 	width: 964px;
 	margin: 0 auto;
@@ -79,6 +98,7 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	background: url(../images/) center no-repeat
 }
 
+/* For header with buttons/page navigation (app.component.html) */
 #website_menu {
 	float: center;
 	height: 72px;
@@ -93,12 +113,14 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	background: url(../images/) no-repeat;
 }
 
+/* For interface on Movies, Shop and Home */
 #website_main {
 	width: 860px;
-	padding: 34px 52px 20px;
+	padding: 0px 52px 20px;
 	background: url(../images/) center no-repeat
 }
 
+/* support page form styling */
 #contact_form {
 	padding: 0;
 	width: 400px;
@@ -155,6 +177,7 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 .h50 { height: 50px }
 .divider { margin-bottom: 40px; padding-bottom: 20px; background: url(../images/) repeat-x bottom; }
 
+/* float styling for left/right UI */
 .float_l { float: left; margin-left: 10px;}
 .float_l2 { float: left; margin-left: 80px;}
 .float_r { float: right; margin-right:20px;}
@@ -243,6 +266,8 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 .half {
 	width: 400px;
 }
+
+/* left side border */
 .side {
 	background: url(../images/sideDivider.png);
 	height:1600%;
@@ -250,6 +275,7 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	margin-left: -200px;
 }
 
+/* right side border */
 .side1 {
 	background: url(../images/sideDivider.png);
 	height:1526%;
@@ -258,6 +284,8 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	margin-top: -1100px;
 
 }
+
+/* Header background image for UI */
 .bg {
 	
 	background: url(../images/headerImage.png);
@@ -270,6 +298,8 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
     background-size: cover;
 	margin-left: 51px;
 }
+
+/* Footer background image for UI */
 .bg2 {
 	
 	background: url(../images/headerImage.png);
@@ -297,6 +327,22 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
   /* Center and scale the image nicely */
     
 }
+
+.bg4 {
+	
+	background: url(../images/headerImage.png);
+	height: 140%; 
+	width: 100.95%;
+	margin-top: 930px;
+	margin-left: -13px;
+	margin-right: 200px;
+	background-size: cover;
+	
+
+  /* Center and scale the image nicely */
+    
+}
+/* footer width sizing for sections */
 #sidebar, .one_third {
 	width: 260px;
 }
@@ -309,6 +355,8 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	width: 840px
 }
 
+
+/* Code reference to : https://material.angular.io/components/expansion/overview */
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
