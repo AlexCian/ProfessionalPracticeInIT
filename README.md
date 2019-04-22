@@ -28,7 +28,11 @@ A page featuring some of the most popular released series and movies so that vie
 
 ## Movies
 
+A page showing movies that release soon so people can keep tabs on them and movies that release later in the year so that they can pre-order spots to watch it on live-stream through the website!
+
 ## Shop
+
+A page showing items that can be bought from the store such as movies, boxsets, blu-rays and other accessories.
 
 ## Support
 
