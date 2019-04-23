@@ -1,59 +1,59 @@
-21st February (Alex) : New Start Date as idea and technology of App have been changed. Fire Base and Angular will be used instead
+21st February : New Start Date as idea and technology of App have been changed. Fire Base and Angular will be used instead
 of HTML and JavaScript.
 
-22nd February 13:35pm (Alex) : Fire Base has been set up with the new App. App needs major cleaning due to it being based off a previous
+22nd February 13:35pm : Fire Base has been set up with the new App. App needs major cleaning due to it being based off a previous
 project which has no correlation to the idea of the current App. Can't be uploaded to Github until it is cleaned.
 
-27th February 16:15pm (Alex) : Attempting to iron out basic firebase changes, in process of pushing to git to test changing. 
+27th February 16:15pm : Attempting to iron out basic firebase changes, in process of pushing to git to test changing. 
 
-27th February 16:27pm (Alex) : Github working correctly, all work pushed to here. App still needs cleaning, hasn't been changed much as Firebase had some difficulties. 
+27th February 16:27pm : Github working correctly, all work pushed to here. App still needs cleaning, hasn't been changed much as Firebase had some difficulties. 
 
-1st March 11:51pm (Alex) : Updated the Github repository for the main html page on Angular to have suitable CSS/the old look that other website had before idea was changed.
+1st March 11:51pm : Updated the Github repository for the main html page on Angular to have suitable CSS/the old look that other website had before idea was changed.
 
-1st March 11:57pm (Alex) : Wiki has been updated, index page link for Fire Base has been created and headers were added. Still in learning process of the Wiki so again it will be updated once more content has been added. 
+1st March 11:57pm : Wiki has been updated, index page link for Fire Base has been created and headers were added. Still in learning process of the Wiki so again it will be updated once more content has been added. 
 
-1st March 23:38pm (Alex) : Noticed that when uploading to git (git push) the images and CSS file disappear. Updated a Wiki page to show how to counter this and show precautions. Please read the Wiki page named "Errors".
+1st March 23:38pm : Noticed that when uploading to git (git push) the images and CSS file disappear. Updated a Wiki page to show how to counter this and show precautions. Please read the Wiki page named "Errors".
 -----------------------------
 WORK FOR NEXT WEEK (4th March)
 -----------------------------
 Get suitable user interface, try and read/write from firebase database if possible, if not just work on website itself and have some usable functions inside.
 
-Update 5th March 11:47pm (Alex) : Work on link shown on "Useful Links" Wiki page to get a login application using FireBase for the two tier architecture.
+Update 5th March 11:47pm : Work on link shown on "Useful Links" Wiki page to get a login application using FireBase for the two tier architecture.
 
-12th March 19:47pm (Alex) : Added two new pages to go on links up top, changed some pages and currently uploading these changes.
+12th March 19:47pm : Added two new pages to go on links up top, changed some pages and currently uploading these changes.
 (19:51pm) - all changed, CSS file hasn't been updated so no changes there.
 
 -------------------------
-12th - 25th March (Alex) : Tried to get Firebase Authentication working, some modules not complying with VS code as they are of an older version, may have to scrap Firebase idea and work with MLab instead (is already installed in project)
+12th - 25th March : Tried to get Firebase Authentication working, some modules not complying with VS code as they are of an older version, may have to scrap Firebase idea and work with MLab instead (is already installed in project)
 -------------------------
-25th March 22:54pm (Alex) : Working on support page UI and layout.
+25th March 22:54pm : Working on support page UI and layout.
 
-7th April 13:24pm (Alex) : Fallen behind on project work due to other college work. Mainly research is being done as of now but on 12th of April work will pick up again and hopefully full UI will be finished in the week until the 19th. Finishing touches done on 19th-26th for simple extras to add to website.
+7th April 13:24pm : Fallen behind on project work due to other college work. Mainly research is being done as of now but on 12th of April work will pick up again and hopefully full UI will be finished in the week until the 19th. Finishing touches done on 19th-26th for simple extras to add to website.
 
-8th April 17:16pm (Alex) : Created UI for the support/info page in the website. Some minor adjustments are needed to fix layout.
+8th April 17:16pm : Created UI for the support/info page in the website. Some minor adjustments are needed to fix layout.
 
-13th April 19:36pm (Alex) : Updated CSS, folder not in project as does not import. Updating UI of support page and main page, removed one link up top as not needed for content.
+13th April 19:36pm : Updated CSS, folder not in project as does not import. Updating UI of support page and main page, removed one link up top as not needed for content.
 
-16th April 15:57pm (Alex) : Updating CSS for pages, useful link for Wiki found to style and organise it correctly. https://guides.github.com/features/wikis/
+16th April 15:57pm : Updating CSS for pages, useful link for Wiki found to style and organise it correctly. https://guides.github.com/features/wikis/
 
-17th April 13:28pm (Alex) : Updated Wiki with several new pages.
+17th April 13:28pm : Updated Wiki with several new pages.
 
-18th April 11:02pm (Alex) : Support page layout almost complete, mat expansion panels added for dropdown menus. 
+18th April 11:02pm : Support page layout almost complete, mat expansion panels added for dropdown menus. 
 
-18th April 17:48pm (Alex) : Added embedded videos into the featured page (main page) and put them into divs (left and right).
+18th April 17:48pm : Added embedded videos into the featured page (main page) and put them into divs (left and right).
 
-19th April 14:16pm (Alex) : Suitable UI for home page has been complete. More programs to be added and add to favourites/add to cart 
+19th April 14:16pm : Suitable UI for home page has been complete. More programs to be added and add to favourites/add to cart 
 buttons should be added next to title.
 
-21st April 16:50pm (Alex) : Major UI and CSS file changes. Much better user interface and working on background image for website on ]
+21st April 16:50pm : Major UI and CSS file changes. Much better user interface and working on background image for website on ]
 app.component.html so it fits all pages. Company Logo being designed for header of app aswell. 
 
-22nd April 14:38pm (Alex) : Movies main page fully updated, CSS file updated with new div tags to go with page. 
+22nd April 14:38pm : Movies main page fully updated, CSS file updated with new div tags to go with page. 
 
-22nd April 20:59pm (Alex) : Updated Home page interface, informative page detailing what can be found on our website and giving the 
+22nd April 20:59pm : Updated Home page interface, informative page detailing what can be found on our website and giving the 
 viewers a bit of background into the creators of the website.
 
-23rd April 00:02pm (Alex) : Home page UI finished, styling applied. 
+23rd April 00:02pm : Home page UI finished, styling applied. 
 
 -----------------------------
 ---------FINAL WORK----------
@@ -70,3 +70,14 @@ FINISH BY 26TH APRIL (4 DAYS)
 
 23rd April : Presentation needs to be completed, rough answers for questions that may be asked completed and Wiki topics on 
 learnonline to be added to Wiki. Code to be finished as well.
+
+23rd April 19:56pm : Got Mongoose fully working to send technical assistance report.
+
+Work Remaining : 
+
+Screencast (Alex)
+Shopping Cart (Cian)
+Background image (Cian)
+Homepage UI (Alex)
+Wiki Design (Alex + Cian)
+Logo (Cian)
