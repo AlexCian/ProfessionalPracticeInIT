@@ -13,35 +13,40 @@
       <div class="half float_l">
         <p>
         Please input your details in the boxes below for <b>technical assistance</b>.</p>
-
-        <div id="contact_form">
-          <form class="form-inline">
-            <div class="form-group">
-              <label for="InputName">Full Name</label>
-              <input type="text" class="form-control" id="InputName" placeholder="Name" required><br>
-
-              <div class="form-group">
-                <label for="InputEmail">Email</label>
-                <input type="email" class="form-control" id="InputEmail" placeholder="Vaild email address" required><br>
-              </div>
-
-              <label for="InputSubject">Subject:</label>
-              <input type="text" class="form-control" id="InputSubject" placeholder="Technical Assistance Required" required><br>
-
-              <div class="cleaner h10"></div>
-
-              <label for="text">Message:</label> <textarea placeholder="Input details of the message:" id="text" 
-              name="text" rows="0" cols="0" class="required"></textarea>
-              <div class="cleaner h10"></div>
-
-              <input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" onclick=sendRequest() />
-
-              <input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
-              <br>
-            </div>
-          </form>
-
-        </div>
+        <br><br>
+        <form (submit)="onAddPost(postForm)" #postForm="ngForm">
+          <p>Email Address : </p>
+        <mat-form-field>
+          <input
+            matInput
+            type="text"
+            name="title"
+            ngModel
+            required
+            minlength="1"
+            #title="ngModel">
+            
+          <mat-error *ngIf="title.invalid">You forgot your doughnut toppings!</mat-error>
+        </mat-form-field>
+        <p>Message : </p>
+        <mat-form-field>
+          <input
+            matInput
+            type="text"
+            name="content"
+            ngModel
+            required
+            #content="ngModel">
+          <mat-error *ngIf="content.invalid">You forgot your doughnut toppings!</mat-error>
+        </mat-form-field>
+        <br>
+        <br>
+        <button
+          mat-raised-button
+          color="accent"
+          type="submit">Send</button>
+      </form>
+      <br><br> <br><br> <br><br> <br><br>
       </div>
       
 
