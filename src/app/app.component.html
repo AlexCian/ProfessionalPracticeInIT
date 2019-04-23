@@ -1,25 +1,52 @@
 <link href="css/website.css" rel="stylesheet" type="text/css" />
+<style>
+    .main_edges{
+      
+      background: url('../images/bgImage.jpg') repeat-y;
+      background-size: 100% 100%;
+      background-position: top center;
+    }
+  </style>
 
+  
 <div id="website_wrapper">
+    
+
     <div id="website_header">
-	      <h1><u>Fletnix</u></h1>
+      
+      <div class = "bg">
+        
+        <h1><u>Fletnix</u></h1> 
+        
       <div id="website_menu" class="ddsmoothmenu">
         <ul>
-          <li><button mat-button [routerLink]="['/home2']" class="withsub">Home</button>
-          <li><button mat-button [routerLink]="['/create']" class="withsub">Page One</button>
           
-            
-       
-          <li><button mat-button [routerLink]="['/list']" class="withsub">Page Two</button>
-          
-       
-          <li><button mat-button [routerLink]="['/shop']" class="withsub">Cart</button>
-          <li><button mat-button [routerLink]="['/info']" class="withsub">Support</button>
+          <li><button mat-button [routerLink]="['/create']" class="withsub" color="primary">Home</button> 
+          <li><button mat-button [routerLink]="['/home2']" class="withsub" color="primary">Featured</button>                    
+          <li><button mat-button [routerLink]="['/list']" class="withsub" color="primary">Movies</button>            
+          <li><button mat-button [routerLink]="['/shop']" class="withsub" color="primary">Shop</button>
+          <li><button mat-button [routerLink]="['/info']" class="withsub" color="primary">Support</button>
 		  	  
         </ul>
+      
+        <div class="side">&nbsp;</div>
+        
+        <div class="side1">&nbsp;</div>
+      
+        
       </div>
-      <!-- END of menu -->
+    
+      <div class="main_body">&nbsp;</div>
+    
     </div>
+  
+ 
+        
+  
+      <!-- END of menu -->
+      
+    
+    
     <!-- END of header-->
 
 
@@ -60,3 +87,4 @@
 </script>
 -->
 <router-outlet></router-outlet>
+
