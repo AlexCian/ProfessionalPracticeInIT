@@ -77,7 +77,7 @@ Work Remaining :
 
 Screencast (Alex)
 Shopping Cart (Cian)
-Background image (Cian) DONE (NOT WORKING)
+Background image (Cian) DONE
 Homepage UI (Alex) DONE
 Wiki Design (Alex + Cian) DONE
 Logo (Cian) IN PROGRESS
