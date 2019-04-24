@@ -86,6 +86,6 @@ TIMELINE EXTENDED UNTIL 28TH APRIL
 
 24th April 16:25pm : Finished updating Wiki
 
-24th April 22:04pm : Homepage completely finished, background image not working so decided not to add one.
+24th April 22:04pm : Homepage completely finished, background image working.
 
 Final work : Screencast, presentation, shopping cart/page, logo.
