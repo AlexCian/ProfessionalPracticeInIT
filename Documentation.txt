@@ -77,11 +77,15 @@ Work Remaining :
 
 Screencast (Alex)
 Shopping Cart (Cian)
-Background image (Cian)
-Homepage UI (Alex)
+Background image (Cian) DONE (NOT WORKING)
+Homepage UI (Alex) DONE
 Wiki Design (Alex + Cian) DONE
-Logo (Cian)
+Logo (Cian) IN PROGRESS
 
 TIMELINE EXTENDED UNTIL 28TH APRIL
 
 24th April 16:25pm : Finished updating Wiki
+
+24th April 22:04pm : Homepage completely finished, background image not working so decided not to add one.
+
+Final work : Screencast, presentation, shopping cart/page, logo.
