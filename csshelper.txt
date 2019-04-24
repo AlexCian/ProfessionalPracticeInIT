@@ -342,6 +342,21 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
   /* Center and scale the image nicely */
     
 }
+
+.bg5 {
+	
+	background: url(../images/headerImage.png);
+	height: 100%; 
+	width: 100.9%;
+	margin-top: 20px;
+	margin-left:-12px;
+	margin-right: 192px;
+	background-size: cover;
+	
+
+  /* Center and scale the image nicely */
+    
+}
 /* footer width sizing for sections */
 #sidebar, .one_third {
 	width: 260px;
