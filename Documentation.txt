@@ -92,3 +92,6 @@ Final work : Screencast, presentation, shopping cart/page, logo.
 
 25th April 14:17pm : Shopping cart page UI finished, not fully functioning. Future work would be add shop page and then 
 seperate cart page.
+
+25th April 21:22pm : Project fully complete. Cloned and ran successfully from other machine after installing npm 
+dependencies. Screencast and presentation are final work left.
