@@ -26,7 +26,7 @@
             minlength="1"
             #title="ngModel">
             
-          <mat-error *ngIf="title.invalid">You forgot your doughnut toppings!</mat-error>
+          <mat-error *ngIf="title.invalid">Please enter an email address</mat-error>
         </mat-form-field>
         <p>Message : </p>
         <mat-form-field>
@@ -37,7 +37,7 @@
             ngModel
             required
             #content="ngModel">
-          <mat-error *ngIf="content.invalid">You forgot your doughnut toppings!</mat-error>
+          <mat-error *ngIf="content.invalid">Please enter a message</mat-error>
         </mat-form-field>
         <br>
         <br>
@@ -152,6 +152,7 @@
 	</div>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- div for bottom styling -->
 <div class="bg3"></div>
 
       
