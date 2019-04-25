@@ -89,3 +89,6 @@ TIMELINE EXTENDED UNTIL 28TH APRIL
 24th April 22:04pm : Homepage completely finished, background image working.
 
 Final work : Screencast, presentation, shopping cart/page, logo.
+
+25th April 14:17pm : Shopping cart page UI finished, not fully functioning. Future work would be add shop page and then 
+seperate cart page.
