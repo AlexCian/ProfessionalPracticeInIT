@@ -2,9 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
-## Running App
+## Running App (Important)
 
-Run `ng serve` for a dev server. Initiate node/express with node ./server.js in BackEnd folder. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` in MainProject directory. Initiate node/express with "node ./server.js" in BackEnd folder in code editor.
+
+If you have cloned the project directly, in the MainProject folder you need to run:
+
+npm install -g @angular/cli
+npm install --save @angular/material @angular/cdk @angular/animations
+npm install express --save 
+npm install mongoose
+
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Navigation
 
