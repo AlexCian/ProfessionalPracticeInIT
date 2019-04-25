@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Running App (Important)
 
-Run `ng serve` in MainProject directory. Initiate node/express with "node ./server.js" in BackEnd folder in code editor.
+Run `ng serve` in ProfessionalPracticeInIT directory. Initiate node/express with "node ./server.js" in BackEnd folder in code editor.
 
 If you have cloned the project directly, in the MainProject folder you need to run:
 
