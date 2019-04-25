@@ -9,8 +9,11 @@ Run `ng serve` in MainProject directory. Initiate node/express with "node ./serv
 If you have cloned the project directly, in the MainProject folder you need to run:
 
 npm install -g @angular/cli
+
 npm install --save @angular/material @angular/cdk @angular/animations
+
 npm install express --save 
+
 npm install mongoose
 
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
