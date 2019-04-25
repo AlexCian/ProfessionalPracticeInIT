@@ -50,8 +50,8 @@ app.get('/', function (req, res) {
 
 app.post('/api/posts', function(req, res){
     console.log("Success!");
-    console.log("Topping 1: "+req.body.title);
-    console.log("Topping 2: "+req.body.content);
+    console.log("Email: "+req.body.title);
+    console.log("Message: "+req.body.content);
 
     PostModel.create({
         title: req.body.title,
