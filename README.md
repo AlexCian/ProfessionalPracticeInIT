@@ -1,4 +1,4 @@
-# Professional Practice In IT (Fletnix)
+# Professional Practice In IT (FiNite)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
